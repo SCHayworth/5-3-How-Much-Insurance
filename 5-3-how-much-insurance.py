@@ -4,7 +4,7 @@
 # 10-28-2019
 # Original source code and revision history can be found at https://github.com/SCHayworth/5-3-How-Much-Insurance
 
-# Calculates the minimum recommended insurance amount based on 80% of the replacement cost of a building.
+# Calculates the minimum recommended insurance amount based on a percentage of the replacement cost of a building.
 
 # Define the main function
 # Mainline program logic
