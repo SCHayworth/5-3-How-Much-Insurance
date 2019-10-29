@@ -12,13 +12,13 @@ Many financial experts advise that property owners should insure their homes or 
 ### Pseudocode
     START
     INPUT replacement amount in dollars
+    INPUT Insurance percent
     CALL minimum insurance function
     END
 
     FUNCTION minimum insurance
-      Pass In: replacement amount
-      OUTPUT 80% insured
+      Pass In: replacement amount, insurance percent
       Calculate the minimum insurance needed:
-        minimum = replacement amount * 0.8
+        minimum = replacement amount * (insurance percent / 100)
       OUTPUT minimum insurance
     END FUNCTION
